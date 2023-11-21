@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MVVM Pokémon Combat</string>
+    <string name="textoComienzo">¡Dale a la pokébola para comenzar!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="ataquefisico">ATAQUE F.</string>
+    <string name="defensaFisica">DEFENSA F.</string>
+    <string name="vidaMax">VIDA MÁX.</string>
+    <string name="ataqueE">ATAQUE E.</string>
+    <string name="defensaE">DEFENSA E.</string>
+    <string name="textoPokemon1">POKÉMON Nº1</string>
+    <string name="kingambit">Kingambit</string>
+    <string name="vidaMaxP1">Vida máx (0-999)</string>
+    <string name="ataquefP1">Ataque físico (0-999)</string>
+    <string name="defensaFP1">Defensa física (0-999)</string>
+    <string name="ataqueEP1">Ataque especial (0-999)</string>
+    <string name="defensaEP1">Defensa especial (0-999)</string>
+</resources>

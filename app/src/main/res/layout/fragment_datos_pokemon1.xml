@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C60091D4"
+    tools:context=".datosPokemon1">
+
+    <TextView
+        android:id="@+id/defensaF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/defensaFisica"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/defensafP1"
+        app:layout_constraintTop_toBottomOf="@+id/ataqueF" />
+
+    <EditText
+        android:id="@+id/vidaPokemon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/vidaMaxP1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombrePokemon1" />
+
+    <EditText
+        android:id="@+id/ataqueEP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="@string/ataqueEP1"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/defensafP1" />
+
+    <TextView
+        android:id="@+id/defensaE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/defensaE"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/defensaEP1"
+        app:layout_constraintTop_toBottomOf="@+id/ataqueE" />
+
+    <TextView
+        android:id="@+id/ataqueE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/ataqueE"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/ataqueEP1"
+        app:layout_constraintTop_toBottomOf="@+id/defensaF" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/nombre"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/nombrePokemon1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/vidaMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/vidaMax"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/vidaPokemon1"
+        app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+    <EditText
+        android:id="@+id/ataquefP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/ataquefP1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vidaPokemon1" />
+
+    <EditText
+        android:id="@+id/defensafP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/defensaFP1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ataquefP1" />
+
+    <TextView
+        android:id="@+id/ataqueF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/ataquefisico"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/ataquefP1"
+        app:layout_constraintTop_toBottomOf="@+id/vidaMax" />
+
+    <EditText
+        android:id="@+id/defensaEP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="@string/defensaEP1"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ataqueEP1" />
+
+    <EditText
+        android:id="@+id/nombrePokemon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/kingambit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoPokemon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="@string/textoPokemon1"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonValidarP1"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Validar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botonSiguienteP1"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Siguiente"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

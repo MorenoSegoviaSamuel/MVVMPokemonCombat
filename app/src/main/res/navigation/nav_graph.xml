@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicio">
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.mvvmpokmoncombat.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_datosPokemon1"
+            app:destination="@id/datosPokemon1" />
+    </fragment>
+    <fragment
+        android:id="@+id/datosPokemon1"
+        android:name="com.example.mvvmpokmoncombat.datosPokemon1"
+        android:label="fragment_datos_pokemon1"
+        tools:layout="@layout/fragment_datos_pokemon1" >
+        <action
+            android:id="@+id/action_datosPokemon12_to_datosPokemon2"
+            app:destination="@id/datosPokemon2" />
+    </fragment>
+    <fragment
+        android:id="@+id/datosPokemon2"
+        android:name="com.example.mvvmpokmoncombat.datosPokemon2"
+        android:label="fragment_datos_pokemon2"
+        tools:layout="@layout/fragment_datos_pokemon2" >
+        <action
+            android:id="@+id/action_datosPokemon2_to_combate"
+            app:destination="@id/combate" />
+    </fragment>
+    <fragment
+        android:id="@+id/combate"
+        android:name="com.example.mvvmpokmoncombat.Combate"
+        android:label="fragment_combate"
+        tools:layout="@layout/fragment_combate" />
+</navigation>
