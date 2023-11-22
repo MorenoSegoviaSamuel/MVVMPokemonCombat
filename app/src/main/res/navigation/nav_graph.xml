@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/datosPokemon1"
-        android:name="com.example.mvvmpokmoncombat.datosPokemon1"
+        android:name="com.example.mvvmpokmoncombat.DatosPokemon1"
         android:label="fragment_datos_pokemon1"
         tools:layout="@layout/fragment_datos_pokemon1" >
         <action
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/datosPokemon2"
-        android:name="com.example.mvvmpokmoncombat.datosPokemon2"
+        android:name="com.example.mvvmpokmoncombat.DatosPokemon2"
         android:label="fragment_datos_pokemon2"
         tools:layout="@layout/fragment_datos_pokemon2" >
         <action
